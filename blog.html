@@ -1,315 +1,299 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Urku Portfolio :: Pixeden</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Medigo Blue, Blog, free template</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <!-- 
+	Medigo Template
+	http://www.templatemo.com/preview/templatemo_460_medigo
+    -->
+
+	<!-- Google Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/misc.css">
+	<link rel="stylesheet" href="css/blue-scheme.css">
+	
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+
+
+	<div class="responsive_menu">
+        <ul class="main_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a>
+            	<ul>
+            		<li><a href="portfolio.html">Portfolio Grid</a></li>
+            		<li><a href="project-image.html">Project Image</a></li>
+            		<li><a href="project-slideshow.html">Project Slideshow</a></li>
+            	</ul>
             </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
-                </ul>
-              </nav>
+            <li><a href="#">Blog</a>
+				<ul>
+					<li><a href="blog.html">Blog Standard</a></li>
+					<li><a href="blog-single.html">Blog Single</a></li>
+                    <li><a href="#">visit templatemo</a></li>
+				</ul>
             </li>
-            <li class="active rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-            </li>
-            <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
-            </li>
-          </ul>
-          <form class="rk-search">
-            <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
-            <label for="urku-search">
-              <svg>
-                <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-              </svg>
-            </label>
-          </form>
-        </nav>
-      </div>
-    </header>
-    <section class="ae-container-fluid rk-main">
-      <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-base" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-full"></use>
-          </svg>
-        </label>
-      </div>
-      <input type="radio" name="layout-ctrl" id="layout-grid" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-grid" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-alt"></use>
-          </svg>
-        </label>
-      </div>
-      <div class="rk-layout-ctrl-mobile  layout-blog">
-        <svg viewBox="0 0 9 9" class="layout-mob-1">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-2">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-3">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-4">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-      </div>
-      <section class="ae-container-fluid ae-container-fluid--inner rk-blog">
-        <div class="rk-blog__items">
-          <div class="rk-blog__item">
-            <div class="post-img post-1 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">All elements of a Post</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <span>in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 12 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-5 rk-landscape-alt rk-toportrait">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html"> Free and Premium graphic</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit <span>laboriosam, nisi ut aliquid ex ea commodi consequatur</span></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">5 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 08 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-7 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Only Images Sistem 02</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt"></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-6 rk-landscape-alt rk-toportrait">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Sublimmme Portfolio</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et <span>quasi architecto beatae vitae dicta sunt explicabo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</span></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 10 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-2 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Gallery Slider Sistem</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <span>odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</span></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 09 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-8 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Design and Web resources</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste</p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 02 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-3 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Video System</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut <span>aliquid ex ea commodi consequatur</span></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-4 rk-landscape-alt rk-tosquare">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Only Images</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt"></p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-          <div class="rk-blog__item">
-            <div class="post-img post-9 rk-landscape-alt rk-toportrait">
-              <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
-                      <svg>
-                        <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                      </svg></span></a></p>
-              </div>
-            </div>
-            <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Share the love around</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
-              <p class="blog-info__excerpt">Modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
-            </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">1 Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
-                  <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                  </svg></span></a></div>
-          </div>
-        </div>
-      </section>
-      <div class="ae-container-fluid au-pb-4 group-buttons"><a href="#0" class="arrow-button arrow-button--reverse arrow-button--center">Older Posts
-          <div class="arrow-cont arrow-cont-rev">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#arrow"></use>
-            </svg>
-          </div></a></div>
-    </section>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
-            </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
-        </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">contact@urkuportfolio.com </a></span></p>
-          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
-        </div>
-      </div>
-    </footer>
-    <script src="assets/js/svg4everybody.min.js"></script>
-    <script>svg4everybody();</script>
-  </body>
+            <li><a href="archives.html">Archives</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> <!-- /.main_menu -->
+    </div> <!-- /.responsive_menu -->
+
+	<header class="site-header clearfix">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="pull-left logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Medigo">
+						</a>
+					</div>	<!-- /.logo -->
+
+					<div class="main-navigation pull-right">
+
+						<nav class="main-nav visible-md visible-lg">
+							<ul class="sf-menu">
+								<li><a href="index.html">Home</a></li>
+					            <li><a href="#">Portfolio</a>
+					            	<ul>
+					            		<li><a href="portfolio.html">Portfolio Grid</a></li>
+					            		<li><a href="project-image.html">Project Image</a></li>
+					            		<li><a href="project-slideshow.html">Project Slideshow</a></li>
+					            	</ul>
+					            </li>
+					            <li class="active"><a href="#">Blog</a>
+									<ul>
+										<li><a href="blog.html">Blog Standard</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+                                        <li><a href="#">visit templatemo</a></li>
+									</ul>
+					            </li>
+					            <li><a href="archives.html">Archives</a></li>
+					            <li><a href="contact.html">Contact</a></li>
+							</ul> <!-- /.sf-menu -->
+						</nav> <!-- /.main-nav -->
+
+						<!-- This one in here is responsive menu for tablet and mobiles -->
+					    <div class="responsive-navigation visible-sm visible-xs">
+					        <a href="#nogo" class="menu-toggle-btn">
+					            <i class="fa fa-bars"></i>
+					        </a>
+					    </div> <!-- /responsive_navigation -->
+
+					</div> <!-- /.main-navigation -->
+
+				</div> <!-- /.col-md-12 -->
+
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+	</header> <!-- /.site-header -->
+
+	<div class="first-widget parallax" id="blog">
+		<div class="parallax-overlay">
+			<div class="container pageTitle">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<h2 class="page-title">Blog</h2>
+					</div> <!-- /.col-md-6 -->
+					<div class="col-md-6 col-sm-6 text-right">
+						<span class="page-location">Home / Blog</span>
+					</div> <!-- /.col-md-6 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div> <!-- /.parallax-overlay -->
+	</div> <!-- /.pageTitle -->
+
+	<div class="container">	
+		<div class="row">
+
+			<div class="col-md-8 blog-posts">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="post-blog">
+							<div class="blog-image">
+								<a href="blog-single.html">
+									<img src="images/includes/blog1.jpg" alt="">
+								</a>
+							</div> <!-- /.blog-image -->
+							<div class="blog-content">
+								<span class="meta-date"><a href="#">28 February 2084</a></span>
+								<span class="meta-comments"><a href="#">14 Comments</a></span>
+								<span class="meta-author"><a href="#">Candy Sharp</a></span>
+								<h3><a href="blog-single.html">Getting Creative With the Google Maps API</a></h3>
+								<p class="light-text">Sed consequat lobortis risus, in rutrum arcu tristique eget. Etiam accumsan lectus quis cursus porta.  Etiam a turpis sed sapien malesuada pellentesque quis id tortor.  Phasellus mattis quam enim, non accumsan nibh tincidunt sed.</p>
+								<p>Nunc ullamcorper nisi sit amet eros dictum, eget vulputate quam rhoncus. Nulla diam eros, ultrices id lacinia ut, aliquet sit amet erat. Duis ut nulla molestie, ullamcorper ligula eu, ultricies tortor. Suspendisse quis consequat a turpis sed sapien quis id tortor <a href="blog-single.html">Continue Reading...</a></p>
+							</div> <!-- /.blog-content -->
+						</div> <!-- /.post-blog -->
+						<div class="post-blog">
+							<div class="blog-image">
+								<a href="blog-single.html">
+									<img src="images/includes/blog2.jpg" alt="">
+								</a>
+							</div> <!-- /.blog-image -->
+							<div class="blog-content">
+								<span class="meta-date"><a href="#">24 February 2084</a></span>
+								<span class="meta-comments"><a href="#">32 Comments</a></span>
+								<span class="meta-author"><a href="#">Candy Sharp</a></span>
+								<h3><a href="blog-single.html">Bird Profile Wellington New Zealand</a></h3>
+								<p class="light-text">Sed consequat lobortis risus, in rutrum arcu tristique eget. Etiam accumsan lectus quis cursus porta.  Etiam a turpis sed sapien malesuada pellentesque quis id tortor.  Phasellus mattis quam enim, non accumsan nibh tincidunt sed.</p>
+								<p>Nunc ullamcorper nisi sit amet eros dictum, eget vulputate quam rhoncus. Nulla diam eros, ultrices id lacinia ut, aliquet sit amet erat. Duis ut nulla molestie, ullamcorper ligula eu, ultricies tortor. Suspendisse quis consequat a turpis sed sapien quis id tortor <a href="blog-single.html">Continue Reading...</a></p>
+							</div> <!-- /.blog-content -->
+						</div> <!-- /.post-blog -->
+						<div class="post-blog">
+							<div class="blog-image">
+								<a href="blog-single.html">
+									<img src="images/includes/blog3.jpg" alt="">
+								</a>
+							</div> <!-- /.blog-image -->
+							<div class="blog-content">
+								<span class="meta-date"><a href="#">20 February 2084</a></span>
+								<span class="meta-comments"><a href="#">64 Comments</a></span>
+								<span class="meta-author"><a href="#">Candy Sharp</a></span>
+								<h3><a href="blog-single.html">Standard Blog Post Formating Medigo</a></h3>
+								<p class="light-text">Sed consequat lobortis risus, in rutrum arcu tristique eget. Etiam accumsan lectus quis cursus porta.  Etiam a turpis sed sapien malesuada pellentesque quis id tortor.  Phasellus mattis quam enim, non accumsan nibh tincidunt sed.</p>
+								<p>Nunc ullamcorper nisi sit amet eros dictum, eget vulputate quam rhoncus. Nulla diam eros, ultrices id lacinia ut, aliquet sit amet erat. Duis ut nulla molestie, ullamcorper ligula eu, ultricies tortor. Suspendisse quis consequat a turpis sed sapien quis id tortor <a href="blog-single.html">Continue Reading...</a></p>
+							</div> <!-- /.blog-content -->
+						</div> <!-- /.post-blog -->
+						<div class="post-blog">
+							<div class="blog-image">
+								<a href="blog-single.html">
+									<img src="images/includes/blog4.jpg" alt="">
+								</a>
+							</div> <!-- /.blog-image -->
+							<div class="blog-content">
+								<span class="meta-date"><a href="#">24 February 2084</a></span>
+								<span class="meta-comments"><a href="#">128 Comments</a></span>
+								<span class="meta-author"><a href="#">Candy Sharp</a></span>
+								<h3><a href="blog-single.html">Hochbunker High Definition Photography</a></h3>
+								<p class="light-text">Sed consequat lobortis risus, in rutrum arcu tristique eget. Etiam accumsan lectus quis cursus porta.  Etiam a turpis sed sapien malesuada pellentesque quis id tortor.  Phasellus mattis quam enim, non accumsan nibh tincidunt sed.</p>
+								<p>Nunc ullamcorper nisi sit amet eros dictum, eget vulputate quam rhoncus. Nulla diam eros, ultrices id lacinia ut, aliquet sit amet erat. Duis ut nulla molestie, ullamcorper ligula eu, ultricies tortor. Suspendisse quis consequat a turpis sed sapien quis id tortor <a href="blog-single.html">Continue Reading...</a></p>
+							</div> <!-- /.blog-content -->
+						</div> <!-- /.post-blog -->
+					</div> <!-- /.col-md-12 -->
+					<div class="col-md-12">
+						<ul class="pages">
+							<li><a href="#" class="active">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">13</a></li>
+						</ul>
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.col-md-8 -->
+
+			<div class="col-md-4">
+				<div class="sidebar">
+					<div class="sidebar-widget">
+						<h5 class="widget-title">Recent Posts</h5>
+						<div class="last-post clearfix">
+							<div class="thumb pull-left">
+								<a href="#"><img src="images/includes/blogthumb1.jpg" alt=""></a>
+							</div>
+							<div class="content">
+								<span>24 February 2084</span>
+								<h4><a href="#">Standard Post Formating Medigo</a></h4>
+							</div>
+						</div> <!-- /.last-post -->
+						<div class="last-post clearfix">
+							<div class="thumb pull-left">
+								<a href="#"><img src="images/includes/blogthumb2.jpg" alt=""></a>
+							</div>
+							<div class="content">
+								<span>24 February 2084</span>
+								<h4><a href="#">Standard Post Formating Medigo</a></h4>
+							</div>
+						</div> <!-- /.last-post -->
+						<div class="last-post clearfix">
+							<div class="thumb pull-left">
+								<a href="#"><img src="images/includes/blogthumb3.jpg" alt=""></a>
+							</div>
+							<div class="content">
+								<span>24 February 2084</span>
+								<h4><a href="#">Standard Post Formating Medigo</a></h4>
+							</div>
+						</div> <!-- /.last-post -->
+					</div> <!-- /.sidebar-widget -->
+					<div class="sidebar-widget">
+						<h5 class="widget-title">Categories</h5>
+						<div class="row categories">
+							<div class="col-md-6">
+								<ul>
+									<li><a href="#">Standard</a></li>
+									<li><a href="#">Audio</a></li>
+									<li><a href="#">Video</a></li>
+									<li><a href="#">Branding</a></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul>
+									<li><a href="#">iOS Design</a></li>
+									<li><a href="#">Business</a></li>
+								</ul>
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.sidebar-widget -->
+					<div class="sidebar-widget">
+						<h5 class="widget-title">Flickr Feed</h5>
+						<ul id="flickr-feed" class="thumbs"></ul>
+					</div> <!-- /.sidebar-widget -->
+					<div class="sidebar-widget">
+						<h5 class="widget-title">Text Widget</h5>
+						<p class="light-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient… </p>
+					</div> <!-- /.sidebar-widget -->
+				</div> <!-- /.sidebar -->
+			</div> <!-- /.col-md-4 -->
+
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->	
+
+	
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="footer-nav clearfix">
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="blog.html">Blog Posts</a></li>
+							<li><a href="archives.html">Shortcodes</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul> <!-- /.footer-menu -->
+					</nav> <!-- /.footer-nav -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright-text">Copyright &copy; 2084 Company Name</p>
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</footer> <!-- /.site-footer -->
+
+	<!-- Scripts -->
+	<script src="js/min/plugins.min.js"></script>
+	<script src="js/min/medigo-custom.min.js"></script>
+
+
+</body>
 </html>
