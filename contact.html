@@ -133,7 +133,7 @@ http://www.tooplate.com/view/2082-pure-mix
 		<div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.6s">
 			<h1>Let's work together!</h1>
 			<div class="contact-form">
-				<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbw9EDjob4OfAu8bpCF6dqf8iYQ1SwS-0ZD_HT5E/exec">
+				<form id="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbw9EDjob4OfAu8bpCF6dqf8iYQ1SwS-0ZD_HT5E/exec">
 					<input name="name" type="text" class="form-control" placeholder="What's Your Name?" required>
 					<input name="email" type="email" class="form-control" placeholder="Can I Have Your Email?" required>
 					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
@@ -142,8 +142,18 @@ http://www.tooplate.com/view/2082-pure-mix
 					</div>
 				</form>
 			</div>
-		
-                 <div class="clearfix"></div>
+           <div style="display:none;" id="thankyou_message">
+                       <h2>
+                           <em>Thanks</em> for Contacting Us!
+                                We will Get Back to You Soon!
+                      </h2>
+		       
+		       <script data-cfasync="false" type="text/javascript"
+                 src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+		       
+            </div>
+			
+		<div class="clearfix"></div>
 
 			<div class="col-md-4 col-sm-4">
 				<div class="wow fadeInUp media" data-wow-delay="0.3s">
