@@ -5,16 +5,6 @@ html, body {
       padding: 0;
       height: 100%;
       width: 100%;
-		background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    position: relative;
-}
-
-html,body {
-  width: 100%;
-  overflow-x: hidden;
 }
 
 html {
@@ -87,7 +77,7 @@ img {
       height: 100%;
       width: 100%;
       margin: auto;
-      background: img src="images/forrest.png" no-repeat 50% 50%;
+      background: url="images/forrest.png" no-repeat 50% 50%;
       background-size: cover;
       display: table;
       top: 0;
