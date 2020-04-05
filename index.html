@@ -71,9 +71,36 @@
 		</div>
 	</div>		
 </section>
-<div class="arrow bounce">
-  <a class="fa fa-arrow-down fa-2x" href="#"></a>
-</div>
+
+<div class="scroll-wrapper"><a href="#scroll-here"><i class="scroll fas fa-arrow-down"></i></a>
+
+<style>
+.scroll-wrapper {text-align:center;}
+.scroll {   
+    font-size: 50px;
+    color: #000;
+    
+    
+   -webkit-animation: scrolling 3s ease infinite;
+   -moz-animation: scrolling 3s ease infinite;
+   -o-animation: scrolling 3s  ease infinite;
+   animation: scrolling 3s ease infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translate(0);
+  }
+ 
+  50% {
+    transform: translate(0,40px);}
+
+ 
+  100% {
+     transform: translate(0);
+  }
+}
+</style></div>
 
 <!-- Portfolio section
 ================================================== -->
