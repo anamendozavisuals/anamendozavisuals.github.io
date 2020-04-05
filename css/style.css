@@ -88,7 +88,7 @@ img {
 }
 
 .arrow,
-.arrow:before {
+.arrow:after {
   position: absolute;
   left: 50%;
 }
@@ -105,7 +105,7 @@ img {
   border-bottom: 2px #fff solid;
 }
 
-.arrow:before {
+.arrow:after {
   content: "";
   width: 20px;
   height: 20px;
