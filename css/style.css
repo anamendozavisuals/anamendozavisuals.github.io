@@ -90,13 +90,13 @@ img {
 .arrow,
 .arrow:before {
   position: absolute;
-  left: 100%;
+  left: 50%;
 }
 
 .arrow {
   width: 40px;
   height: 40px;
-  top: 100%;
+  top: 200%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
   border-left: none;
@@ -109,7 +109,7 @@ img {
   content: "";
   width: 20px;
   height: 20px;
-  top: 100%;
+  top: 200%;
   margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
