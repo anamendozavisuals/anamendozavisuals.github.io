@@ -77,7 +77,7 @@ img {
       height: 100%;
       width: 100%;
       margin: auto;
-      background: url="images/forrest.png" no-repeat 50% 50%;
+      background: url('../images/forrest.png') no-repeat 50% 50%;
       background-size: cover;
       display: table;
       top: 0;
@@ -475,7 +475,7 @@ a.icon {
 .header-five .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
-
+/* 
 .header-one, .header-two,
 .header-three, .header-four,
 .header-five {
