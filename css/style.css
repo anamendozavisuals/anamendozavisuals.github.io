@@ -87,9 +87,6 @@ img {
   max-width: 100%;
 }
 
-
-/* preloader styles
-/* ========================================== */
 .arrow,
 .arrow:before {
   position: absolute;
@@ -132,6 +129,9 @@ img {
     transform: translate(-10px, -10px);
   }
 }
+/* preloader styles
+/* ========================================== */
+
 
 .preloader {
     position: fixed;
