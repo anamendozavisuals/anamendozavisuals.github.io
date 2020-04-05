@@ -80,13 +80,13 @@ img {
   width: 100%;
   max-width: 100%;
 }
-
+/*
 .arrow,
 .arrow:before {
   position: absolute;
   left: 50%;
 }
-/*
+
 .arrow {
   width: 40px;
   height: 40px;
@@ -123,8 +123,8 @@ img {
     transform: translate(-10px, -10px);
   }
 }
+*/
 
-/*
 * {
   box-sizing: border-box;
 }
