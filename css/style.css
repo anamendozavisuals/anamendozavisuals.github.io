@@ -6,7 +6,7 @@ html, body {
       height: 100%;
       width: 100%;
 }
-
+/*
 html {
   font-size: 100%;
 }
@@ -70,14 +70,15 @@ img {
   max-width: 100%;
 }
 
-
-
+*/
 }
+
+
 .intro {
       height: 100%;
       width: 100%;
       margin: auto;
-      background: url('../images/forrest.png') no-repeat 50% 50%;
+      background: url('images/forrest.png') no-repeat 50% 50%;
       background-size: cover;
       display: table;
       top: 0;
@@ -142,7 +143,6 @@ img {
 }
 
 /* preloader styles
-/* ========================================== */
 
 
 .preloader {
@@ -192,7 +192,6 @@ body {
 
 
 /* navigation styles
-/* ========================================== */
 .nav-container,
 nav {
   overflow: visible;
@@ -452,7 +451,6 @@ a.icon {
 }
 
 /* header section styles
-/* ========================================== */
 #header {
   -webkit-background-size: cover;
   background-size: cover;
@@ -475,7 +473,7 @@ a.icon {
 .header-five .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
-/* 
+
 .header-one, .header-two,
 .header-three, .header-four,
 .header-five {
