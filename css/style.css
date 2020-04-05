@@ -88,15 +88,15 @@ img {
 }
 
 .arrow,
-.arrow:after {
+.arrow:before {
   position: absolute;
-  left: 50%;
+  left: 100%;
 }
 
 .arrow {
   width: 40px;
   height: 40px;
-  top: 50%;
+  top: 100%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
   border-left: none;
@@ -105,11 +105,11 @@ img {
   border-bottom: 2px #fff solid;
 }
 
-.arrow:after {
+.arrow:before {
   content: "";
   width: 20px;
   height: 20px;
-  top: 50%;
+  top: 100%;
   margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
