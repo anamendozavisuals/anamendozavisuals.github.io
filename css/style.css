@@ -1,16 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500');
-
-html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-}
 /*
+Template 2082 Pure Mix
+http://www.tooplate.com/view/2082-pure-mix
+*/
+
+/* Body 
+------------------------------------- */
+body {
+		background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   font-size: 100%;
 }
 
+
+/* Typography
+------------------------------------- */
 
 h1,h2,h3,h4 {
   font-weight: 400;
@@ -70,81 +84,9 @@ img {
   max-width: 100%;
 }
 
-*/
-}
-
-
-.intro {
-      height: 100%;
-      width: 100%;
-      margin: auto;
-      background: url('images/forrest.png') no-repeat 50% 50%;
-      background-size: cover;
-      display: table;
-      top: 0;
-}
-.intro .inner {
-      display:  table-cell;
-      vertical-align: middle;
-      text-align: center;
-      padding-bottom: 25%;
-}
-.content h1 {
-      font-family: 'Open Sans', sans-serif;
-      color: #f9f3f4;
-      font-size: 550%;
-      text-shadow: 3px 3px #098fa8;
-}
-
-@media (max-width: 768px){
-    .content h1 {
-         font-size: 300%;
-}
-.arrow,
-.arrow:before {
-  position: absolute;
-  left: 50%;
-}
-.arrow {
-  width: 40px;
-  height: 40px;
-  top: 150%;
-  margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
-  border-left: none;
-  border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
-}
-
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow;
-}
-
-@keyframes arrow {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-10px, -10px);
-  }
-}
 
 /* preloader styles
-
-
+/* ========================================== */
 .preloader {
     position: fixed;
     top: 0;
@@ -186,12 +128,9 @@ img {
     opacity: 0; } }
 
 
-body {
-  background: #000;
-}
-
 
 /* navigation styles
+/* ========================================== */
 .nav-container,
 nav {
   overflow: visible;
@@ -451,6 +390,7 @@ a.icon {
 }
 
 /* header section styles
+/* ========================================== */
 #header {
   -webkit-background-size: cover;
   background-size: cover;
