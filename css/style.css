@@ -12,13 +12,10 @@ body {
     font-weight: 300;
     position: relative;
 }
-/* Body 
 html,body {
   width: 100%;
   overflow-x: hidden;
 }
-
-------------------------------------- */
 html {
   font-size: 100%;
 }
